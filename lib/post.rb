@@ -5,8 +5,8 @@ class Post
     @title = title 
   end
   
-  def author=(author)
-    self.author = author 
+  def author=(author1)
+    self.author = author1 
     self.author.posts << self
     Author.post_count += 1 
   end
