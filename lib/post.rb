@@ -6,8 +6,8 @@ class Post
   end
   
   def author=(author1)
-    self.author = author1 
-    self.author.posts << self
+    @author = author1 
+    @author.posts << self
     Author.post_count += 1 
   end
   
