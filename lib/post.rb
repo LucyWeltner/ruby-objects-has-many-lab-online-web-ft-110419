@@ -9,5 +9,7 @@ class Post
     self.author.posts << self
     Author.post_count += 1 
   end
+  
+  
 end
     
