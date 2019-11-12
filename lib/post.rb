@@ -12,6 +12,7 @@ class Post
     @author = author1 
     @author.posts << self
     p author1.name
+    p Author.post_count
     Author.post_count += 1 
   end
   
